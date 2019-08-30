@@ -3,6 +3,15 @@ This projects shows how one can make a simple blog (list > details) style single
 No frameworks or build tools are needed to run this.
 But one will need a web server to serve the html and the js to the browser.
 
+### Updates
+- **2019-08-30** - #**1**
+  - separation header and footer codes from app.js (header-footer.js)
+    - to prevent reload of both after each hash change
+  - About menu removed from html e js
+    - for the next commit feature
+  - changes on index.html because of two above
+  - some refactoring (suggestions from jetbrains ide tips)
+  
 ## License (MIT)
 Copyright 2018, Rishav Sharan
 

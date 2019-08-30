@@ -26,3 +26,10 @@ node_modules
 dist
 .cache
 package-lock.json
+
+# =========================
+# Jetbrains
+# =========================
+.idea
+/src/.directory
+/src/.htaccess
