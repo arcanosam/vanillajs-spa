@@ -7,7 +7,6 @@ import Bottombar    from './views/components/Bottombar.js'
 const header = document.getElementById('header_container');
 const footer = document.getElementById('footer_container');
 
-
 const skel = async () => {
 
     // Render the Header and footer of the page

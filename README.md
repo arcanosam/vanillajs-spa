@@ -4,6 +4,10 @@ No frameworks or build tools are needed to run this.
 But one will need a web server to serve the html and the js to the browser.
 
 ### Updates
+- **2019-08-30** - #**2**
+  - Dynamically inclusion of menu after import a js script
+  - not working, in development
+
 - **2019-08-30** - #**1**
   - separation header and footer codes from app.js (header-footer.js)
     - to prevent reload of both after each hash change
