@@ -4,11 +4,20 @@ No frameworks or build tools are needed to run this.
 But one will need a web server to serve the html and the js to the browser.
 
 ### Updates
-- **2019-08-30** - #**2**
+- **2019-08-31** - commit **1**
+  - Please ignore the previous commit message
+    - I didn't know the hashtag symbol plus a number make a reference for a issue
+    - I'm replace this hashtag  for 'commit' word
+  - I'm still working on js load only when needed
+    - This commits make few changes
+      - it's just to not loose code
+      - I have to move the project folder to another place
+ 
+- **2019-08-30** - commit **2**
   - Dynamically inclusion of menu after import a js script
   - not working, in development
 
-- **2019-08-30** - #**1**
+- **2019-08-30** - commit **1**
   - separation header and footer codes from app.js (header-footer.js)
     - to prevent reload of both after each hash change
   - About menu removed from html e js

@@ -65,18 +65,15 @@ let Home = {
                     options.dataType = 'script';
                     options.url = fooPosts._links;
 
-                    window['routes']['/about'] = await fetch(
-                        './views/pages/About.js',
-                        options
-                    );
+                    //window['routes']['/about'] = $.getScript();
 
                     let ahabout = document.createElement('a');
                     ahabout.href='/#/about';
                     ahabout.text='About';
 
-                    document.querySelector('a.navbar-item').parentNode.insertBefore(
+                    document.querySelector('div.navbar-start').parentNode.insertBefore(
                         ahabout,
-                        document.querySelector('a.navbar-item')
+                        document.querySelector('div.navbar-start')
                     );
 
                 } catch (err) {
